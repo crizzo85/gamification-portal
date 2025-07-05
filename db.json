@@ -1,0 +1,498 @@
+{
+  "classes": [
+    {
+      "id": "e059b075",
+      "name": "3E",
+      "students": [
+        {
+          "id": "3E_741855"
+        },
+        {
+          "id": "3E_F5D820"
+        },
+        {
+          "id": "3E_F69A6A"
+        },
+        {
+          "id": "3E_789E3D"
+        },
+        {
+          "id": "3E_4E9776"
+        },
+        {
+          "id": "3E_6C99D4"
+        },
+        {
+          "id": "3E_376871"
+        },
+        {
+          "id": "3E_5346CF"
+        },
+        {
+          "id": "3E_12B2B8"
+        },
+        {
+          "id": "3E_25DB19"
+        },
+        {
+          "id": "3E_3340B7"
+        },
+        {
+          "id": "3E_716560"
+        },
+        {
+          "id": "3E_5F1A4A"
+        },
+        {
+          "id": "3E_1E1F1E"
+        },
+        {
+          "id": "3E_90C02A"
+        },
+        {
+          "id": "3E_E653E7"
+        },
+        {
+          "id": "3E_431F10"
+        },
+        {
+          "id": "3E_117D02",
+          "badges": [
+            "FaNetworkWired",
+            "MdBugReport",
+            "brilliant_presenter",
+            "terminal_tamer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0f925825",
+      "name": "3F",
+      "students": [
+        {
+          "id": "3F_432C67"
+        },
+        {
+          "id": "3F_5B70F6"
+        },
+        {
+          "id": "3F_920CC7"
+        },
+        {
+          "id": "3F_60C98C"
+        },
+        {
+          "id": "3F_BBC68F"
+        },
+        {
+          "id": "3F_794FB5"
+        },
+        {
+          "id": "3F_27AF24"
+        }
+      ]
+    },
+    {
+      "id": "28791c81",
+      "name": "4F",
+      "students": [
+        {
+          "id": "4F_30878C"
+        },
+        {
+          "id": "4F_D94FFF"
+        },
+        {
+          "id": "4F_1832EF"
+        },
+        {
+          "id": "4F_DC81AF"
+        },
+        {
+          "id": "4F_78A294"
+        },
+        {
+          "id": "4F_C38C30"
+        },
+        {
+          "id": "4F_B4752E"
+        },
+        {
+          "id": "4F_CF542B"
+        },
+        {
+          "id": "4F_F89850"
+        },
+        {
+          "id": "4F_AC9C20"
+        },
+        {
+          "id": "4F_69D550"
+        },
+        {
+          "id": "4F_72C995"
+        },
+        {
+          "id": "4F_1B820E"
+        },
+        {
+          "id": "4F_6E6641"
+        },
+        {
+          "id": "4F_CD028D"
+        },
+        {
+          "id": "4F_EF45F9"
+        },
+        {
+          "id": "4F_4FA722"
+        },
+        {
+          "id": "4F_8E4EF7"
+        },
+        {
+          "id": "4F_4CBDBB"
+        },
+        {
+          "id": "4F_826CDF"
+        },
+        {
+          "id": "4F_27414B"
+        },
+        {
+          "id": "4F_19FDEC"
+        },
+        {
+          "id": "4F_C93065"
+        },
+        {
+          "id": "4F_F90BB5"
+        },
+        {
+          "id": "4F_6E1B6A"
+        },
+        {
+          "id": "4F_409E10"
+        }
+      ]
+    }
+  ],
+  "badges": [
+    {
+      "id": "prog_ecc",
+      "name": "Programmatore Eccellente",
+      "description": "Per codice pulito, efficiente e ben strutturato.",
+      "category": "Programmazione",
+      "icon": "FaCode",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "net_arch",
+      "name": "Architetto di Rete",
+      "description": "Per la progettazione e implementazione di reti efficienti e sicure.",
+      "category": "Networking",
+      "icon": "FaNetworkWired",
+      "color": "red-400",
+      "stars": 1
+    },
+    {
+      "id": "db_expert",
+      "name": "Esperto di Database",
+      "description": "Per la gestione ottimale e l'interrogazione avanzata di database.",
+      "category": "Database",
+      "icon": "FaDatabase",
+      "color": "yellow-500",
+      "stars": 1
+    },
+    {
+      "id": "tech_innovator",
+      "name": "Innovatore Tecnologico",
+      "description": "Per l'introduzione e l'applicazione creativa di nuove tecnologie.",
+      "category": "Innovazione",
+      "icon": "FaLightbulb",
+      "color": "purple-500",
+      "stars": 1
+    },
+    {
+      "id": "brilliant_presenter",
+      "name": "Presentatore Brillante",
+      "description": "Per presentazioni chiare, coinvolgenti e ben strutturate.",
+      "category": "Comunicazione",
+      "icon": "FaChartLine",
+      "color": "teal-500",
+      "stars": 1
+    },
+    {
+      "id": "109ed8fd",
+      "name": "Test",
+      "description": "Per aver testato correttamente il software.",
+      "category": "software engineer",
+      "icon": "MdBugReport",
+      "color": "lime-500",
+      "stars": 1
+    },
+    {
+      "id": "b064e06f",
+      "name": "Python Addicted",
+      "description": "Sei esperto in Python",
+      "category": "Python",
+      "icon": "FaPython",
+      "color": "yellow-500",
+      "stars": 1
+    },
+    {
+      "id": "code_conqueror",
+      "name": "Code Conqueror",
+      "description": "Ha completato con successo un progetto base in Python.",
+      "category": "Programmazione",
+      "icon": "FaPython",
+      "color": "yellow-500",
+      "stars": 1
+    },
+    {
+      "id": "debugger_pro",
+      "name": "Debugger Pro",
+      "description": "Ha trovato e risolto un bug critico in autonomia.",
+      "category": "Programmazione",
+      "icon": "FaBug",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "terminal_tamer",
+      "name": "Terminal Tamer",
+      "description": "Ha eseguito operazioni avanzate tramite riga di comando Linux.",
+      "category": "Sistemi",
+      "icon": "FaTerminal",
+      "color": "green-300",
+      "stars": 1
+    },
+    {
+      "id": "script_magician",
+      "name": "Script Magician",
+      "description": "Ha creato uno script automatizzato.",
+      "category": "Automazione",
+      "icon": "FaMagic",
+      "color": "purple-300",
+      "stars": 1
+    },
+    {
+      "id": "rest_rebel",
+      "name": "REST Rebel",
+      "description": "Ha implementato un'API REST funzionante.",
+      "category": "Programmazione",
+      "icon": "FaNetworkWired",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "vm_architect",
+      "name": "VM Architect",
+      "description": "Ha configurato una macchina virtuale con SO e servizi.",
+      "category": "Virtualizzazione",
+      "icon": "FaCubes",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "db_initiate",
+      "name": "DB Initiate",
+      "description": "Ha progettato e interrogato un database relazionale.",
+      "category": "Database",
+      "icon": "FaDatabase",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "ping_master",
+      "name": "Ping Master",
+      "description": "Ha diagnosticato problemi di rete con ping e traceroute.",
+      "category": "Reti",
+      "icon": "FaWifi",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "packet_sniffer",
+      "name": "Packet Sniffer",
+      "description": "Ha analizzato il traffico con Wireshark o tcpdump.",
+      "category": "Reti",
+      "icon": "FaEye",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "lan_builder",
+      "name": "LAN Builder",
+      "description": "Ha progettato correttamente una rete locale con IP statici.",
+      "category": "Reti",
+      "icon": "FaProjectDiagram",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "port_scanner",
+      "name": "Port Scanner",
+      "description": "Ha riconosciuto e spiegato il funzionamento delle porte TCP/UDP.",
+      "category": "Reti",
+      "icon": "FaDoorOpen",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "dhcp_ninja",
+      "name": "DHCP Ninja",
+      "description": "Ha configurato o simulato un server DHCP funzionante.",
+      "category": "Reti",
+      "icon": "FaNetworkWired",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "firewall_guardian",
+      "name": "Firewall Guardian",
+      "description": "Ha compreso e applicato regole firewall di base.",
+      "category": "Sicurezza di rete",
+      "icon": "FaShieldAlt",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "dns_detective",
+      "name": "DNS Detective",
+      "description": "Ha analizzato la risoluzione dei nomi e il funzionamento del DNS.",
+      "category": "Reti",
+      "icon": "FaSearch",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "relazione_top",
+      "name": "Relazione Top",
+      "description": "Ha consegnato una documentazione chiara e ben organizzata.",
+      "category": "Documentazione",
+      "icon": "FaFileAlt",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "mentore_junior",
+      "name": "Mentore Junior",
+      "description": "Ha aiutato un compagno a completare un'attività tecnica.",
+      "category": "Peer Learning",
+      "icon": "FaHandHoldingHeart",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "presentazione_pro",
+      "name": "Presentazione Pro",
+      "description": "Ha presentato in modo efficace un progetto tecnico.",
+      "category": "Comunicazione",
+      "icon": "FaChalkboardTeacher",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "security_aware",
+      "name": "Security Aware",
+      "description": "Ha riconosciuto e spiegato vulnerabilità comuni.",
+      "category": "Cybersecurity",
+      "icon": "FaLock",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "rooted",
+      "name": "Rooted!",
+      "description": "Ha ottenuto i permessi root su un sistema (in laboratorio).",
+      "category": "Privilegi/Permessi",
+      "icon": "FaUserSecret",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "encryption_explorer",
+      "name": "Encryption Explorer",
+      "description": "Ha compreso il funzionamento della crittografia base.",
+      "category": "Cybersecurity",
+      "icon": "FaKey",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "phish_spotter",
+      "name": "Phish Spotter",
+      "description": "Ha individuato e spiegato un attacco di phishing simulato.",
+      "category": "Sicurezza informatica",
+      "icon": "FaFish",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "tpsit_hero",
+      "name": "TPSIT Hero",
+      "description": "Ha dimostrato costanza e impegno durante tutto il corso.",
+      "category": "Speciale",
+      "icon": "FaTrophy",
+      "color": "blue-500",
+      "stars": 3
+    },
+    {
+      "id": "night_coder",
+      "name": "Night Coder",
+      "description": "Ha consegnato un progetto dopo l'orario scolastico.",
+      "category": "Easter Egg",
+      "icon": "FaMoon",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "extra_mile",
+      "name": "Extra Mile",
+      "description": "Ha completato un’attività facoltativa o avanzata.",
+      "category": "Extra",
+      "icon": "FaRoad",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "bug_hunter",
+      "name": "Bug Hunter",
+      "description": "Ha trovato un errore nel materiale del docente.",
+      "category": "Interattivo",
+      "icon": "FaSearchDollar",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "hackathon_warrior",
+      "name": "Hackathon Warrior",
+      "description": "Ha partecipato a una maratona di programmazione.",
+      "category": "Evento",
+      "icon": "FaCodeBranch",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "qr_master",
+      "name": "QR Master",
+      "description": "Ha sempre usato il proprio QR code in modo corretto.",
+      "category": "Partecipazione",
+      "icon": "FaQrcode",
+      "color": "blue-500",
+      "stars": 1
+    },
+    {
+      "id": "d282c487",
+      "name": "dsasadsadads",
+      "description": "hhghg",
+      "category": "jhkjhkjh",
+      "icon": "FaLaptopCode",
+      "color": "red-400",
+      "stars": 3
+    }
+  ]
+}
