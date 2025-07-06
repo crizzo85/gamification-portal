@@ -3,14 +3,8 @@
 import { useEffect, useState } from 'react';
 import BadgePatch from '@/components/BadgePatch';
 
-interface Badge {
-  id: string;
-  name: string;
-  description: string;
-  category: string;
-  icon: string;
-  color: string;
-}
+import { Badge } from '@/components/types';
+
 
 interface StudentData {
   id: string;
