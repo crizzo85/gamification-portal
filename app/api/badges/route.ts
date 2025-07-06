@@ -10,11 +10,16 @@ async function readDb() {
     const dbData = await fs.readFile(dbPath, 'utf-8');
     return JSON.parse(dbData);
   } catch (error) {
-    if (error.code === 'ENOENT') {
-      return { classes: [], badges: [] };
-    }
-    throw error;
+  if (
+    typeof error === 'object' &&
+    error !== null &&
+    'code' in error &&
+    (error as any).code === 'ENOENT'
+  ) {
+    return { classes: [], badges: [] };
   }
+  throw error;
+}
 }
 
 async function writeDb(data: any) {
