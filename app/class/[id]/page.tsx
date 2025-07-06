@@ -107,8 +107,6 @@ export default function ClassPage({ params }: { params: { id: string } }) {
         false
       );
 
-      scanner.render(onScanSuccess, onScanError);
-
       const onScanSuccess = (decodedText: string, decodedResult: any) => {
         setStudentIdInput(decodedText);
         setShowScanner(false);
@@ -118,6 +116,8 @@ export default function ClassPage({ params }: { params: { id: string } }) {
       const onScanError = (errorMessage: string) => {
         // console.warn(errorMessage);
       };
+
+      scanner.render(onScanSuccess, onScanError);
 
       return () => {
         scanner.clear();
