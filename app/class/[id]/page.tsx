@@ -15,12 +15,7 @@ interface Student {
   badges?: string[];
 }
 
-interface Badge {
-  id: string;
-  name: string;
-  icon: string;
-  color: string;
-}
+
 
 interface ClassData {
   id: string;
