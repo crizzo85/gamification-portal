@@ -173,6 +173,26 @@
           "id": "4F_409E10"
         }
       ]
+    },
+    {
+      "id": "80d35cee",
+      "name": "3P inf",
+      "students": [
+        {
+          "id": "3P inf_A18063"
+        },
+        {
+          "id": "3P inf_9536A6"
+        },
+        {
+          "id": "3P inf_D8CAE3",
+          "badges": [
+            "night_coder",
+            "rest_rebel",
+            "b064e06f"
+          ]
+        }
+      ]
     }
   ],
   "badges": [
@@ -483,13 +503,13 @@
       "stars": 1
     },
     {
-      "id": "d282c487",
-      "name": "dsasadsadads",
-      "description": "hhghg",
-      "category": "jhkjhkjh",
-      "icon": "FaLaptopCode",
-      "color": "red-400",
-      "stars": 3
+      "id": "302cbf51",
+      "name": "Test-a",
+      "description": "Descrizione di un badge di test. Con modifica",
+      "category": "Test",
+      "icon": "FaUserCog",
+      "color": "green-300",
+      "stars": 2
     }
   ]
 }

@@ -9,6 +9,9 @@ import * as RiIcons from 'react-icons/ri'; // Remix Icon
 import * as HiIcons from 'react-icons/hi'; // Heroicons
 import * as FiIcons from 'react-icons/fi'; // Feather Icons
 import * as AiIcons from 'react-icons/ai'; // Ant Design Icons
+import * as SiIcons from 'react-icons/si'; // Simple Icons
+import * as TbIcons from 'react-icons/tb'; // Tabler Icons
+import * as FcIcons from 'react-icons/fc'; // Flat Color Icons
 
 interface SvgIconProps {
   name: string; // es. "FaCode", "MdBugReport", "IoAccessibilityOutline"
@@ -27,6 +30,9 @@ const iconLibraries: { [key: string]: any } = {
   Hi: HiIcons,
   Fi: FiIcons,
   Ai: AiIcons,
+  Si: SiIcons,
+  Tb: TbIcons,
+  Fc: FcIcons,
 };
 
 const SvgIcon: React.FC<SvgIconProps> = ({ name, className, fill = "currentColor" }) => {

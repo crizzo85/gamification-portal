@@ -11,7 +11,16 @@ const iconCategories = {
   "Programmazione": {
     representativeIcon: 'FaCode',
     icons: [
-      'FaCode', 'FaLaptopCode', 'FaTerminal', 'FaFileCode', 'FaBug', 'FaGitAlt', 'FaJs', 'FaPython', 'FaJava', 'FaHtml5', 'FaCss3Alt', 'FaReact', 'FaNodeJs', 'FaPhp', 'FaCplusplus', 'FaCsharp', 'FaSwift', 'FaGofore', 'FaRust', 'FaVuejs', 'FaAngular', 'FaDocker', 'FaKubernetes', 'FaAws', 'FaGoogle', 'FaMicrosoft', 'FaApple', 'FaLinux', 'FaWindows', 'FaAndroid', 'FaAppStoreIos', 'FaChrome', 'FaFirefox', 'FaEdge', 'FaSafari', 'FaWordpress', 'FaShopify', 'FaMagento', 'FaDrupal', 'FaJoomla', 'FaConfluence', 'FaJira', 'FaBitbucket', 'FaGithub', 'FaGitlab', 'FaStackOverflow', 'FaDev', 'FaFreeCodeCamp', 'FaCodepen', 'FaJsfiddle', 'FaNpm', 'FaYarn', 'FaGulp', 'FaGrunt', 'FaWebpack', 'FaBabel', 'FaSass', 'FaLess', 'FaStylus', 'FaBootstrap',
+      'FaCode', 'FaLaptopCode', 'FaTerminal', 'FaFileCode', 'FaBug', 'FaGitAlt', 
+      'FaJs', 'FaPython', 'FaJava', 'FaHtml5', 'FaCss3Alt', 'FaReact', 
+      'FaNodeJs', 'FaPhp', 'SiCplusplus', 'TbBrandCSharp', 'FaSwift', 'FaGofore', 
+      'FaRust', 'FaVuejs', 'FaAngular', 'FaDocker', 'FaJsSquare', 'FaAws', 
+      'FaGoogle', 'FaMicrosoft', 'FaApple', 'FaLinux', 'FaWindows', 'FaAndroid', 
+      'FaAppStoreIos', 'FaChrome', 'FaFirefox', 'FaEdge', 'FaSafari', 'FaWordpress', 
+      'FaShopify', 'FaMagento', 'FaDrupal', 'FaJoomla', 'FaConfluence', 'FaJira', 
+      'FaBitbucket', 'FaGithub', 'FaGitlab', 'FaStackOverflow', 'FaDev', 'FaFreeCodeCamp', 
+      'FaCodepen', 'FaJsfiddle', 'FaNpm', 'FaYarn', 'FaGulp', 'FaGrunt', 
+      'SiPandas', 'FaBabel', 'FaSass', 'FaLess', 'FaStylus', 'FaBootstrap',
     ],
   },
   "Networking": {
@@ -47,7 +56,7 @@ const iconCategories = {
   "Lavoro di Squadra": {
     representativeIcon: 'FaUsers',
     icons: [
-      'FaUsers', 'FaUserFriends', 'FaUserPlus', 'FaUserMinus', 'FaUserTimes', 'FaUserCheck', 'FaUserGraduate', 'FaUserMd', 'FaUserNurse', 'FaUserAstronaut', 'FaUserInjured', 'FaUserSlash', 'FaUserTag', 'FaUserAlt', 'FaUserCircle', 'FaUser', 'FaHandshake', 'FaHandsHelping', 'FaPeopleCarry', 'FaChalkboardTeacher', 'FaSchool', 'FaBuilding', 'FaCity', 'FaIndustry', 'FaFactory', 'FaWarehouse', 'FaStore', 'FaStoreAlt', 'FaStoreSlash', 'FaStoreAltSlash', 'FaStore', 'FaStoreAlt', 'FaStoreSlash', 'FaStoreAltSlash',
+      'FaUsers', 'FaUserFriends', 'FaUserPlus', 'FaUserMinus', 'FaUserTimes', 'FaUserCheck', 'FaUserGraduate', 'FaUserMd', 'FaUserNurse', 'FaUserAstronaut', 'FaUserInjured', 'FaUserSlash', 'FaUserTag', 'FaUserAlt', 'FaUserCircle', 'FaUser', 'FaHandshake', 'FaHandsHelping', 'FaPeopleCarry', 'FaChalkboardTeacher', 'FaSchool', 'FaBuilding', 'FaCity', 'FaIndustry', 'FaFactory', 'FaWarehouse', 'FaStore', 'FaStoreAlt', 'FaStoreSlash', 'FaStoreAltSlash', 'FaStore', 'FaStoreAlt', 'FaMedal', 'FaAward',
     ],
   },
   "Creatività": {
@@ -74,10 +83,11 @@ const iconCategories = {
       'DiApple', 'DiWindows', 'DiLinux', 'DiAndroid', 'DiChrome', 'DiFirefox', 'DiEdge', 'DiSafari', 'DiWordpress', 'DiShopify', 'DiMagento', 'DiDrupal', 'DiJoomla', 'DiConfluence', 'DiJira', 'DiBitbucket', 'DiGithub', 'DiGitlab', 'DiStackOverflow', 'DiDev', 'DiFreeCodeCamp', 'DiCodepen', 'DiJsfiddle', 'DiNpm', 'DiYarn', 'DiGulp', 'DiGrunt', 'DiWebpack', 'DiBabel', 'DiSass', 'DiLess', 'DiStylus', 'DiBootstrap',
     ],
   },
-  "Sviluppo Web": {
-    representativeIcon: 'VscGlobe',
+  "Colorate": {
+    representativeIcon: 'FcElectronics',
     icons: [
-      'VscGlobe', 'VscCode', 'VscTerminal', 'VscJson', 'VscFileCode', 'VscSettingsGear', 'VscExtensions', 'VscGit', 'VscGithub', 'VscGitlab', 'VscNpm', 'VscBug', 'VscLightbulb', 'VscRocket', 'VscCloud', 'VscServer', 'VscDatabase', 'VscShield', 'VscKey', 'VscLock', 'VscUnlock', 'VscSearch', 'VscFilter', 'VscSortAsc', 'VscSortDesc', 'VscCheck', 'VscClose', 'VscAdd', 'VscRemove', 'VscEdit', 'VscTrash', 'VscSave', 'VscRefresh', 'VscArrowLeft', 'VscArrowRight', 'VscArrowUp', 'VscArrowDown', 'VscEye', 'VscEyeClosed', 'VscBell', 'VscWarning', 'VscError', 'VscInfo', 'VscQuestion', 'VscComment', 'VscCommentDiscussion', 'VscFeedback', 'VscMegaphone', 'VscOrganization', 'VscAccount', 'VscMail', 'VscLink', 'VscUnlink', 'VscSettings', 'VscTools', 'VscGear', 'VscBeaker', 'VscFlask', 'VscMicroscope', 'VscTelescope', 'VscRocket', 'VscStar', 'VscHeart', 'VscSmiley', 'VscFrown', 'VscMeh', 'VscGrin', 'VscLaugh', 'VscSad', 'VscSurprise', 'VscTired',
+      'FcCommandLine', 'FcElectronics', 'FcFlowChart', 'FcFolder', 'FcIdea', 'FcParallelTasks', 
+      'FcReading', 'FcWikipedia', 'VscGithub', 'VscGitlab', 'VscNpm', 'VscBug', 'VscLightbulb', 'VscRocket', 'VscCloud', 'VscServer', 'VscDatabase', 'VscShield', 'VscKey', 'VscLock', 'VscUnlock', 'VscSearch', 'VscFilter', 'VscSortAsc', 'VscSortDesc', 'VscCheck', 'VscClose', 'VscAdd', 'VscRemove', 'VscEdit', 'VscTrash', 'VscSave', 'VscRefresh', 'VscArrowLeft', 'VscArrowRight', 'VscArrowUp', 'VscArrowDown', 'VscEye', 'VscEyeClosed', 'VscBell', 'VscWarning', 'VscError', 'VscInfo', 'VscQuestion', 'VscComment', 'VscCommentDiscussion', 'VscFeedback', 'VscMegaphone', 'VscOrganization', 'VscAccount', 'VscMail', 'VscLink', 'VscUnlink', 'VscSettings', 'VscTools', 'VscGear', 'VscBeaker', 'VscFlask', 'VscMicroscope', 'VscTelescope', 'VscRocket', 'VscStar', 'VscHeart', 'VscSmiley', 'VscFrown', 'VscMeh', 'VscGrin', 'VscLaugh', 'VscSad', 'VscSurprise', 'VscTired',
     ],
   },
   "Grafica e UI/UX": {
