@@ -10,12 +10,16 @@ async function readDb() {
     const dbData = await fs.readFile(dbPath, 'utf-8');
     return JSON.parse(dbData);
   } catch (error) {
-    // Se il file non esiste, restituisci una struttura vuota
-    if (error.code === 'ENOENT') {
-      return { classes: [], badges: [] };
-    }
-    throw error;
+  if (
+    typeof error === 'object' &&
+    error !== null &&
+    'code' in error &&
+    (error as any).code === 'ENOENT'
+  ) {
+    return { classes: [], badges: [] };
   }
+  throw error;
+}
 }
 
 export async function GET() {
