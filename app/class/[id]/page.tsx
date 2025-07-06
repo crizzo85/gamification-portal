@@ -10,18 +10,19 @@ import BadgePatch from '@/components/BadgePatch';
 import ConfirmationModal from '@/components/ConfirmationModal';
 import Notification from '@/components/Notification';
 
+import { Badge } from '@/components/types';
+
 interface Student {
   id: string;
   badges?: string[];
 }
-
-
 
 interface ClassData {
   id: string;
   name: string;
   students: Student[];
 }
+
 
 export default function ClassPage({ params }: { params: { id: string } }) {
   const router = useRouter();
