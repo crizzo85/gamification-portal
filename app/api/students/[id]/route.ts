@@ -27,7 +27,7 @@ export async function GET(request: Request, { params }: { params: { id: string }
     let studentData = null;
 
     for (const classItem of data.classes) {
-      const foundStudent = classItem.students.find((s) => s.id === params.id);
+      const foundStudent = classItem.students.find((s: any) => s.id === params.id);
       if (foundStudent) {
         studentData = foundStudent;
         break;
