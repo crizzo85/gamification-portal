@@ -39,8 +39,8 @@ export async function GET(request: Request, { params }: { params: { id: string }
     }
 
     // Recupera i dettagli dei badge assegnati
-    const assignedBadges = (studentData.badges ?? []).map((badgeId: String) =>
-  data.badges.find(b => b.id === badgeId)
+    const assignedBadges = (studentData.badges ?? []).map((badgeId: string) =>
+  data.badges.find((b: {id: string}) => b.id === badgeId)
   ).filter(Boolean) || [];
 
     return NextResponse.json({ ...studentData, assignedBadges });
