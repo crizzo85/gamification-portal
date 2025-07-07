@@ -510,6 +510,15 @@
       "icon": "FaUserCog",
       "color": "green-300",
       "stars": 2
+    },
+    {
+      "id": "f2708c44",
+      "name": "Test a colori",
+      "description": "Test a colori del badge ",
+      "category": "test",
+      "icon": "FcElectronics",
+      "color": "purple-400",
+      "stars": 1
     }
   ]
 }

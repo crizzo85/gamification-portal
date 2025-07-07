@@ -1,5 +1,5 @@
 import React from 'react';
-import * as FaIcons from 'react-icons/fa';
+import * as FaIcons from 'react-icons/fa'; // https://react-icons.github.io/react-icons/icons/fa/
 import * as MdIcons from 'react-icons/md';
 import * as IoIcons from 'react-icons/io5';
 import * as BsIcons from 'react-icons/bs';
@@ -11,7 +11,7 @@ import * as FiIcons from 'react-icons/fi'; // Feather Icons
 import * as AiIcons from 'react-icons/ai'; // Ant Design Icons
 import * as SiIcons from 'react-icons/si'; // Simple Icons
 import * as TbIcons from 'react-icons/tb'; // Tabler Icons
-import * as FcIcons from 'react-icons/fc'; // Flat Color Icons
+import * as FcIcons from 'react-icons/fc'; // Flat Color Icons https://react-icons.github.io/react-icons/icons/fc/
 
 interface SvgIconProps {
   name: string; // es. "FaCode", "MdBugReport", "IoAccessibilityOutline"

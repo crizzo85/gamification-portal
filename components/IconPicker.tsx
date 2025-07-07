@@ -153,16 +153,16 @@ const IconPicker: React.FC<IconPickerProps> = ({ selectedIcon, onSelectIcon }) =
   }
 
   return (
-    <div className="p-4 border rounded-md bg-gray-50">
-      <div className="grid grid-cols-10 gap-0.5">
+    <div className="p-4 border rounded-md bg-gray-50"> 
+      <div className="grid grid-cols-7 gap-2"> {/* cambio il numero di colonne */}
         {Object.entries(iconCategories).map(([categoryName, categoryData]) => (
           <div
             key={categoryName}
             onClick={() => handleCategoryClick(categoryName)}
-            className="p-0.5 border rounded-lg flex flex-col items-center justify-center cursor-pointer hover:bg-blue-100 hover:shadow-lg transition-all aspect-square"
+            className="p-4 border rounded-xl flex flex-col items-center justify-center cursor-pointer hover:bg-blue-100 hover:shadow-lg transition-all aspect-square"
           >
-            <SvgIcon name={categoryData.representativeIcon} className="w-4 h-4 mb-0.5 text-blue-600" />
-            <span className="text-xs font-semibold text-gray-800 text-center" style={{ fontSize: '0.5rem' }}>{categoryName}</span>
+            <SvgIcon name={categoryData.representativeIcon} className="w-6 h-6 mb-1 text-blue-600" />
+            <span className="text-base font-semibold text-gray-800 text-center" style={{ fontSize: '0.5rem' }}>{categoryName}</span>
           </div>
         ))}
       </div>

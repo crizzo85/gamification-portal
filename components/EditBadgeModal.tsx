@@ -40,7 +40,7 @@ const EditBadgeModal: React.FC<EditBadgeModalProps> = ({ isOpen, onClose, onUpda
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-      <div className="bg-white rounded-lg shadow-xl p-6 w-full max-w-md mx-auto">
+      <div className="bg-white rounded-lg shadow-xl p-6 w-full max-w-md mx-auto max-h-screen overflow-y-auto">
         <h3 className="text-xl font-semibold text-gray-900 mb-4">Modifica Badge</h3>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input name="name" value={formData.name} onChange={handleChange} placeholder="Nome Badge" className="w-full px-3 py-2 text-gray-700 bg-gray-100 rounded-md" />
