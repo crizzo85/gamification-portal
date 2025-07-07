@@ -514,9 +514,9 @@
     {
       "id": "f2708c44",
       "name": "Test a colori",
-      "description": "Test a colori del badge ",
+      "description": "Test usando icone colorate all'interno del badge.",
       "category": "test",
-      "icon": "FcElectronics",
+      "icon": "FcCommandLine",
       "color": "purple-400",
       "stars": 1
     }
